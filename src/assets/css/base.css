@@ -1,0 +1,29 @@
+
+
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td {margin:0;padding:0;}
+
+body {background: #f6f7fb; font-family: 'Microsoft Yahei'}
+
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+
+ul,ol{list-style:none;}
+
+a{text-decoration:none;}
+
+.f_l{float: left}
+.f_r{float: right}
+.lh20{line-height: 20px;}
+.lh30{line-height: 30px;}
+.lh40{line-height: 40px;}
+
+
+
+/*清除浮动*/
+.clearfix:before,
+.clearfix:after{
+  display: table;
+  content: " ";
+}
+.clearfix:after {
+  clear: both;
+}

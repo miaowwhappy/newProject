@@ -1,0 +1,269 @@
+a{text-decoration:none;}
+ul li span a:hover{color: #ffab60;}
+.top{
+  width: 100%;
+  height: 20px;
+  padding: 10px 0;
+}
+.layout{
+  width: 1200px;
+  margin: 0 auto;
+  line-height: 14px;
+}
+.left{
+  float: left;
+  color: #0d0d0d;
+  font-size: 14px;
+}
+.left a{
+  cursor: pointer;
+  color: #666;padding-top: 3px
+}
+div.left a:hover{color: #ff4f3f;}
+
+.left img{
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.left span{
+  display: inline-block;
+  border-right: 1px solid #e7e7e9;
+  padding-right: 8px;
+  margin-right: 8px;
+
+}
+.right{
+  float: right;
+}
+.right ul li{
+  float: left;
+  margin-right: 20px;
+}
+.right ul li a{
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+}
+.right ul li:nth-of-type(2) a{
+  margin-right: 10px;
+}
+.weixin{
+  display: inline-block;
+  width: 20px;height: 20px;
+  background: url("/src/assets/topBar/images/social-icons-setsmall.png") no-repeat;
+  background-position: -173px -195px;
+  margin-left: -10px;
+  position: relative;
+}
+
+.weixin div.content{
+  display: none;
+  position: absolute;
+  width: 213px;
+  height: 228px;
+  border:1px solid #d8d8d8;
+  left: -95px;
+  top: 30px;
+  background: #fff;
+  box-shadow: 2px 2px 2px #666;
+  -moz-box-shadow: 2px 2px 2px #666; /* Firefox */
+  -webkit-box-shadow: 2px 2px 2px #666; /* Safari 和 Chrome */
+}
+.weixin .arrow1{
+  display: none;
+  position: absolute;
+  top:22px;
+  border-right: 1px solid #d8d8d8;
+  border-top: 1px solid #d8d8d8;
+  height: 15px;
+  width: 15px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  border-left: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  background: #fff;
+  z-index: 1;
+}
+.weixin:hover div.content{
+  display: block;
+}
+.weixin:hover .arrow1{
+  display: block;
+}
+.weixin div p{
+  margin-top: 20px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #0d0d0d;
+}
+.weixin div p img{
+  width: 160px;
+  margin-top: -10px;
+}
+.weibo{
+  display: inline-block;
+  width: 20px;height: 20px;
+  background: url("/src/assets/topBar/images/social-icons-setsmall.png") no-repeat;
+  background-position: -195px -195px ;
+  margin-left: 10px;
+  position: relative;
+
+}
+.weibo div.content{
+  display: none;
+  position: absolute;
+  width: 210px;height: 48px;
+  border: 1px solid #d8d8d8;
+  top: 30px;
+  left: -130px;
+  background: #fff;
+  box-shadow: 2px 2px 2px #666;
+  -moz-box-shadow: 2px 2px 2px #666; /* Firefox */
+  -webkit-box-shadow: 2px 2px 2px #666; /* Safari 和 Chrome */
+  text-align: center;
+  line-height: 50px;
+  color: #000;
+}
+.weibo .arrow2{
+  display: none;
+  position: absolute;
+  top:22px;
+  border-right: 1px solid #d8d8d8;
+  border-top: 1px solid #d8d8d8;
+  height: 15px;
+  width: 15px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  border-left: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  background: #fff;
+  z-index: 1;
+}
+.weibo:hover div.content{
+  display: block;
+}
+.weibo:hover .arrow2{
+  display: block;
+}
+.weibo div.content a{
+  display: inline-block;
+  color: #0d0d0d;
+}
+.weibo div.content a b{
+  color: #f00;
+}
+#register{
+  color: #ffab60;
+  display: inline-block;
+  width: 40px;
+  border-right: 1px solid #e7e7e9;
+  line-height: 14px;
+  text-align: center;
+
+}
+#login{
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+}
+
+.right .hasLogin span{
+  font-size: 12px;
+  color: #333;
+}
+.right .hasLogin span a{
+  font-size: 14px;
+  color: #666;
+}
+.right .hasLogin span:first-child a:hover{
+  color: #333;
+}
+.right .hasLogin span:last-child a{
+  color: #ff4f3f;
+  margin-left: 7px;
+}
+.right .hasLogin span:last-child a:hover{
+  color: #ff4f3f;
+}
+
+.hasLogin .wrap{
+  position: relative;
+}
+.hasLogin ul {
+  display: none;
+  position: absolute;
+  width: 113px;
+  border: 1px solid #d8d8d8;
+  top: 20px;
+  left: -20px;
+  background: #fff;
+  border-bottom: none;
+
+}
+
+.hasLogin ul li{
+  float: left;
+  border-bottom: 1px solid #d8d8d8;
+  font-size: 14px;
+  width: 113px;
+  margin: 0;
+}
+.hasLogin ul li img{
+  float: left;
+  border: none;
+  width: 20px;
+  margin-right: 5px;
+}
+.hasLogin ul li a{
+  display: inline-block;
+  width: 83px;
+  text-align: left;
+  margin-left: 5px;
+  margin-right: 10px;
+  line-height: 20px;
+  margin-top: 5px;
+  font-size: 14px;
+  /*white-space: nowrap;*/
+  padding-left: 10px;
+
+}
+
+.hasLogin ul li a:last-child{
+  margin-bottom: 5px;
+}
+
+.hasLogin .arrow3{
+  display: none;
+  position: absolute;
+  top:17px;
+  border-right: 1px solid #d8d8d8;
+  border-top: 1px solid #d8d8d8;
+  height: 5px;
+  width: 5px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  border-left: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  background: #fff;
+  z-index: 1;
+  right: 55px;
+}
+.wrap:hover ul{
+  display: block;
+}
+.wrap:hover .arrow3{
+  display: block;
+}
+.hasLogin ul li a:hover {
+  background: #39a1ea;
+}
+
+.clearfix:before,
+.clearfix:after{
+  display: table;
+  content: " ";
+}
+.clearfix:after {
+  clear: both;
+}
